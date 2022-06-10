@@ -1,0 +1,104 @@
+/*CSS of About us page*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;   
+    padding: 0; 
+    background: aqua;
+    background-image: url("img/dell-exclusive-store-laptop-dealers.jpg");
+    background-repeat: no-repeat;
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+}
+* {
+    box-sizing: border-box;
+}
+.logo{
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 975px ;
+    display: flex;
+}
+.header {
+    padding: 30px;
+    text-align: center;
+
+  }
+  #navbar {
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #navbar a:hover {
+    background-color: rgb(163, 44, 44);
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.first,.second,.third,.fourth,.fifth,.sixth{
+    margin: 0 auto;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    text-decoration: underline;
+    margin: auto;
+}
+h5{
+    font-size: 35px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 300px;
+    text-align: center;
+}
+.carousel-indicators{
+    margin: auto;
+    display: flex;
+    justify-items: center;
+}
+footer{
+    font-size: 30px;
+    margin-top: 550px;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: -2rem;
+    margin-left: 15%;
+    list-style: none;
+  }
